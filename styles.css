@@ -1,0 +1,31 @@
+@import "@near-wallet-selector/modal-ui-js/styles.css";
+
+/* styles.css */
+
+/* Ensure modal has a position, width, height, and display styles */
+#wallet-selector-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  #open-wallet-selector {
+    padding: 10px 20px;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #open-wallet-selector:hover {
+    background-color: #00FF00;
+  }
+  
